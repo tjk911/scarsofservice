@@ -1,0 +1,131 @@
+/* Parallax */
+
+.bcg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.hsContainer {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.hsContent {
+	max-width: 100%;
+/*	background-color: rgba(0,0,0,0.5);*/
+	position: absolute;
+	left: 20%;
+	right:20%;
+	top: 50%;
+	border-radius:2px;
+}	
+	.hsContent h1  {
+		text-align: center;
+		/*color: #fff8de;*/
+		/*background-color: rgba(0,0,0,0.5);*/
+		/*padding: 10px 5px;*/
+		font-size:78px;
+		font-size: 4vw;
+		/*line-height: 38px;*/
+		/*margin-bottom: 12px;*/
+	}
+	.hsContent h2  {
+		color: #fff8de;
+		/*background-color: rgba(0,0,0,0.5);*/
+		padding: 10px 5px;
+		font-size: 35px;
+		line-height: 38px;
+		margin-bottom: 12px;
+	}
+
+	.hsContent h3 {
+		font-style: italic;
+		text-align: center;
+		color:white;
+		padding: 10px 5px;
+		font-size: 1vw;
+		font-size:18px;
+		margin-bottom: 12px;
+	}
+	.hsContent p {
+		width: 400px;
+		color: #b2b2b2;
+	}
+	.hsContent a {
+		color: #b2b2b2;
+		text-decoration: underline;
+	}
+
+/* Slides*/
+#cover .bcg {background-image:url(../assets/img/p1/larson/larson1.jpg)}
+#cover .hsContent {
+	bottom: 300px;
+	top: auto;
+}
+
+#larsonstart .bcg {background-image:url(../assets/img/p1/larson/larson1.jpg)}
+#larsonstart .hsContent {
+	bottom: 40%;
+	top: auto;
+}
+
+#larsonend .bcg {background-image:url(../assets/img/p1/larson/larson9.jpg)}
+#larsonend .hsContent {
+	bottom: 200px;
+	top: auto;
+}
+
+#petersonstart .bcg {background-image:url(../assets/img/p2/peterson/peterson1.jpg)}
+#petersonstart .hsContent {
+	bottom: 40%;
+	top: auto;
+}
+
+#petersonend .bcg {background-image:url(../assets/img/p2/peterson/peterson7.jpg)}
+#petersonend .hsContent {
+	bottom: 200px;
+	top: auto;
+}
+
+#eaglestart .bcg {background-image:url(../assets/img/p3/eagle/eagle1.jpg)}
+#eaglestart .hsContent {
+	bottom: 40%;
+	top: auto;
+}
+
+#eagleend .bcg {background-image:url(../assets/img/p3/eagle/eagle12.jpg)}
+#eagleend .hsContent {
+	bottom: 200px;
+	top: auto;
+}
+
+#klutestart .bcg {background-image:url(../assets/img/p3/klut/klut1.jpg)}
+#klutestart .hsContent {
+	bottom: 40%;
+	top: auto;
+}
+
+#kluteend .bcg {background-image:url(../assets/img/p3/klut/klut4.jpg)}
+#kluteend .hsContent {
+	bottom: 200px;
+	top: auto;
+}
+
+#bhstart .bcg {background-image:url(../assets/img/p4/bh1.jpg)}
+#bhstart .hsContent {
+	bottom: 40%;
+	top: auto;
+}
+
+#hectorstart .bcg {background-image:url(../assets/img/p4/bh2.jpg)}
+#hectorstart .hsContent {
+	bottom: 40%;
+	top: auto;
+}
